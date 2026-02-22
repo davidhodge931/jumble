@@ -1,0 +1,53 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# jumble
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The objective of jumble is to provide a discrete colour palette that is colour-blind safe, as well as some other useful colours.
+
+## Installation
+
+You can install the development version of jumble from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("davidhodge931/jumble")
+```
+
+## Example
+
+jumble provides a discrete palette that is relatively colourblind safe.
+
+```{r example}
+library(jumble)
+scales::show_col(jumble)
+```
+
+```{r}
+prismatic::check_color_blindness(jumble)
+```
+
+
+It also provides some other colours with accessible names.
+
+```{r cars}
+scales::show_col(
+  c(teal, orange, navy, red, pink, oat, black, grey, beige, slate, blue, ocean)
+)
+```
+
