@@ -7,8 +7,8 @@
 
 <!-- badges: end -->
 
-The objective of jumble is to provide a discrete colour palette that is
-colour-blind safe, as well as some other useful colours.
+The objective of jumble is to provide a discrete colour palette, as well
+as some other useful colours.
 
 ## Installation
 
@@ -36,6 +36,12 @@ prismatic::check_color_blindness(jumble)
 ```
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" alt="" width="100%" />
+
+``` r
+prismatic::check_color_blindness(palette.colors(palette = "Okabe-Ito")[1:5])
+```
+
+<img src="man/figures/README-unnamed-chunk-3-1.png" alt="" width="100%" />
 
 It also provides some other colours with accessible names.
 
