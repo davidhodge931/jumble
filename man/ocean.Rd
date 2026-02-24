@@ -3,7 +3,7 @@
 \docType{data}
 \name{ocean}
 \alias{ocean}
-\title{Ocean color}
+\title{Ocean colour}
 \format{
 An object of class \code{character} of length 1.
 }
@@ -11,7 +11,7 @@ An object of class \code{character} of length 1.
 ocean
 }
 \description{
-Ocean color
+Ocean colour
 }
 \examples{
 scales::show_col(ocean)

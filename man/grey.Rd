@@ -3,7 +3,7 @@
 \docType{data}
 \name{grey}
 \alias{grey}
-\title{Grey color}
+\title{grey colour}
 \format{
 An object of class \code{character} of length 1.
 }
@@ -11,7 +11,7 @@ An object of class \code{character} of length 1.
 grey
 }
 \description{
-Grey color
+grey colour
 }
 \examples{
 scales::show_col(grey)

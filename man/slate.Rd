@@ -3,7 +3,7 @@
 \docType{data}
 \name{slate}
 \alias{slate}
-\title{Slate color}
+\title{Slate colour}
 \format{
 An object of class \code{character} of length 1.
 }
@@ -11,7 +11,7 @@ An object of class \code{character} of length 1.
 slate
 }
 \description{
-Slate color
+Slate colour
 }
 \examples{
 scales::show_col(slate)

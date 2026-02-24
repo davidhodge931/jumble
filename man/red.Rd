@@ -3,7 +3,7 @@
 \docType{data}
 \name{red}
 \alias{red}
-\title{Red color}
+\title{Red colour}
 \format{
 An object of class \code{character} of length 1.
 }
@@ -11,7 +11,7 @@ An object of class \code{character} of length 1.
 red
 }
 \description{
-Red color
+Red colour
 }
 \examples{
 scales::show_col(red)
