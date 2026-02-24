@@ -2,3 +2,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^README\.Rmd$
+^jumble\.Rproj$
+^[.]?air[.]toml$
+^\.vscode$
