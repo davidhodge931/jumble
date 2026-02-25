@@ -32,22 +32,16 @@ scales::show_col(jumble)
 <img src="man/figures/README-example-1.png" alt="" width="100%" />
 
 ``` r
-prismatic::check_color_blindness(jumble)
+prismatic::check_color_blindness(rev(jumble))
 ```
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" alt="" width="100%" />
-
-``` r
-prismatic::check_color_blindness(palette.colors(palette = "Okabe-Ito")[1:5])
-```
-
-<img src="man/figures/README-unnamed-chunk-3-1.png" alt="" width="100%" />
 
 It also provides some other colours with accessible names.
 
 ``` r
 scales::show_col(
-  c(teal, orange, navy, red, pink, oat, black, grey, beige, slate, blue, ocean)
+  c(teal, orange, navy, red, pink, grey, slate, blue, ocean)
 )
 ```
 
