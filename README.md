@@ -1,10 +1,14 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# jumble
+# jumble <img src="man/figures/logo.png" align="right" height="139" alt="" />
 
 <!-- badges: start -->
 
+[![CRAN
+status](https://www.r-pkg.org/badges/version/jumble)](https://CRAN.R-project.org/package=jumble)
+[![R-universe
+version](https://davidhodge931.r-universe.dev/jumble/badges/version)](https://davidhodge931.r-universe.dev/jumble)
 <!-- badges: end -->
 
 The objective of jumble is to provide a discrete colour palette, as well

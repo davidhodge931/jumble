@@ -1,3 +1,3 @@
-# jumble 0.0.1
+# jumble 0.1.0
 
-* Initial release.
+* Initial CRAN release.
