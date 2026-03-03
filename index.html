@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>A discrete palette • jumble</title>
+<title>A discrete colour palette • jumble</title>
 <!-- favicons --><link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
 <link rel="icon" type="”image/svg+xml”" href="favicon.svg">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -15,9 +15,9 @@
 <link href="deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
 <script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
 <link href="deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
-<script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="A discrete palette">
-<meta name="description" content="A discrete palette, plus some other useful colours.">
-<meta property="og:description" content="A discrete palette, plus some other useful colours.">
+<script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="A discrete colour palette">
+<meta name="description" content="A 7 colour discrete colour palette. The first 4 colours are colour-blind safe for deutanomaly, protanomaly and tritanomaly. The first 5 colours are colour-blind safe for deutanomaly. The first 3 colours are desaturated safe.">
+<meta property="og:description" content="A 7 colour discrete colour palette. The first 4 colours are colour-blind safe for deutanomaly, protanomaly and tritanomaly. The first 5 colours are colour-blind safe for deutanomaly. The first 3 colours are desaturated safe.">
 <meta property="og:image" content="https://davidhodge931.github.io/jumble/logo.svg">
 </head>
 <body>
@@ -67,7 +67,7 @@
 </div>
 <!-- badges: start -->
 
-<p>The objective of jumble is to provide a discrete colour palette, as well as some other useful colours.</p>
+<p>The objective of jumble is to provide a discrete colour palette that looks pretty, but is also relatively colourblind safe.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
@@ -79,20 +79,15 @@
 <div class="section level2">
 <h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
 </h2>
-<p>jumble provides a discrete palette that is relatively colourblind safe.</p>
+<p>jumble provides a 7 colour discrete colour palette.</p>
+<p>The first 4 colours are colour-blind safe for deutanomaly, protanomaly and tritanomaly. The first 5 colours are colour-blind safe for deutanomaly. The first 3 colours are desaturated safe.</p>
+<p>The colours within the palette are provided with accessible names.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/davidhodge931/jumble" class="external-link">jumble</a></span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/davidhodge931/jumble" class="external-link">jumble</a></span><span class="op">)</span></span>
+<span></span>
 <span><span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org/reference/show_col.html" class="external-link">show_col</a></span><span class="op">(</span><span class="va">jumble</span><span class="op">)</span></span></code></pre></div>
 <p><img src="reference/figures/README-example-1.png" alt="" width="100%"></p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">prismatic</span><span class="fu">::</span><span class="fu"><a href="https://emilhvitfeldt.github.io/prismatic/reference/check_color_blindness.html" class="external-link">check_color_blindness</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/rev.html" class="external-link">rev</a></span><span class="op">(</span><span class="va">jumble</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
-<p><img src="reference/figures/README-unnamed-chunk-2-1.png" alt="" width="100%"></p>
-<p>It also provides some other colours with accessible names.</p>
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org/reference/show_col.html" class="external-link">show_col</a></span><span class="op">(</span></span>
-<span>  <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="va">teal</span>, <span class="va">orange</span>, <span class="va">navy</span>, <span class="va">red</span>, <span class="va">pink</span>, <span class="va">grey</span>, <span class="va">slate</span>, <span class="va">blue</span>, <span class="va">ocean</span><span class="op">)</span></span>
-<span><span class="op">)</span></span></code></pre></div>
-<p><img src="reference/figures/README-cars-1.png" alt="" width="100%"></p>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">
@@ -130,7 +125,6 @@
 <h2 data-toc-skip>Dev status</h2>
 <ul class="list-unstyled">
 <li><a href="https://CRAN.R-project.org/package=jumble" class="external-link"><img src="https://www.r-pkg.org/badges/version/jumble" alt="CRAN status"></a></li>
-<li><a href="https://davidhodge931.r-universe.dev/jumble" class="external-link"><img src="https://davidhodge931.r-universe.dev/jumble/badges/version" alt="R-universe version"></a></li>
 </ul>
 </div>
 

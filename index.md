@@ -1,7 +1,7 @@
 # jumble
 
-The objective of jumble is to provide a discrete colour palette, as well
-as some other useful colours.
+The objective of jumble is to provide a discrete colour palette that
+looks pretty, but is also relatively colourblind safe.
 
 ## Installation
 
@@ -15,27 +15,19 @@ pak::pak("davidhodge931/jumble")
 
 ## Example
 
-jumble provides a discrete palette that is relatively colourblind safe.
+jumble provides a 7 colour discrete colour palette.
+
+The first 4 colours are colour-blind safe for deutanomaly, protanomaly
+and tritanomaly. The first 5 colours are colour-blind safe for
+deutanomaly. The first 3 colours are desaturated safe.
+
+The colours within the palette are provided with accessible names.
 
 ``` r
+library(ggplot2)
 library(jumble)
+
 scales::show_col(jumble)
 ```
 
 ![](reference/figures/README-example-1.png)
-
-``` r
-prismatic::check_color_blindness(rev(jumble))
-```
-
-![](reference/figures/README-unnamed-chunk-2-1.png)
-
-It also provides some other colours with accessible names.
-
-``` r
-scales::show_col(
-  c(teal, orange, navy, red, pink, grey, slate, blue, ocean)
-)
-```
-
-![](reference/figures/README-cars-1.png)

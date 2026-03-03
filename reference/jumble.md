@@ -1,6 +1,13 @@
-# A jumble of useful colours
+# A discrete colour palette
 
-A jumble of useful colours.
+A 7 colour discrete colour palette.
+
+The first 4 colours are colour-blind safe for deutanomaly, protanomaly
+and tritanomaly.
+
+The first 5 colours are colour-blind safe for deutanomaly.
+
+The first 3 colours are desaturated safe.
 
 ## Usage
 
