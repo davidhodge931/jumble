@@ -1,6 +1,6 @@
 # Pink colour
 
-Pink colour
+Can be used with jumble, but not colourblind safe.
 
 ## Usage
 
