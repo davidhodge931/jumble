@@ -26,6 +26,12 @@ pak::pak("davidhodge931/jumble")
 
 jumble provides a 7 colour discrete colour palette.
 
+The first 4 colours are colour-blind safe for deutanomaly, protanomaly
+and tritanomaly. The first 5 colours are colour-blind safe for
+deutanomaly. The first 3 colours are desaturated safe.
+
+The colours within the palette are provided with accessible names.
+
 ``` r
 library(ggplot2)
 library(jumble)
@@ -34,66 +40,3 @@ scales::show_col(jumble)
 ```
 
 <img src="man/figures/README-example-1.png" alt="" width="100%" />
-
-``` r
-mpg |> 
-  tidyr::drop_na() |> 
-  ggplot2::ggplot() +
-  geom_point(aes(x = cty, y = hwy, colour = class)) +
-  scale_colour_discrete(palette = jumble)
-```
-
-<img src="man/figures/README-unnamed-chunk-2-1.png" alt="" width="100%" />
-
-The first 4 colours are colour-blind safe for deutanomaly, protanomaly
-and tritanomaly.
-
-``` r
-p <- mpg |> 
-  tidyr::drop_na() |> 
-  ggplot2::ggplot() +
-  geom_point(aes(x = cty, y = hwy, colour = class)) +
-  scale_colour_discrete(palette = jumble[1:4])
-
-colorblindr::cvd_grid(p)
-```
-
-<img src="man/figures/README-unnamed-chunk-3-1.png" alt="" width="100%" />
-
-The first 5 colours are colour-blind safe for deutanomaly.
-
-``` r
-p <- mpg |> 
-  tidyr::drop_na() |> 
-  ggplot2::ggplot() +
-  geom_point(aes(x = cty, y = hwy, colour = class)) +
-  scale_colour_discrete(palette = jumble[1:5])
-
-colorblindr::cvd_grid(p)
-```
-
-<img src="man/figures/README-unnamed-chunk-4-1.png" alt="" width="100%" />
-
-The first 3 colours are desaturated safe.
-
-``` r
-p <- mpg |> 
-  tidyr::drop_na() |> 
-  ggplot2::ggplot() +
-  geom_point(aes(x = cty, y = hwy, colour = class)) +
-  scale_colour_discrete(palette = jumble[1:5])
-
-colorblindr::cvd_grid(p)
-```
-
-<img src="man/figures/README-unnamed-chunk-5-1.png" alt="" width="100%" />
-
-The colours within the palette are provided with accessible names.
-
-``` r
-scales::show_col(
-  c(teal, orange, navy, red, pink, slate, grey)
-)
-```
-
-<img src="man/figures/README-cars-1.png" alt="" width="100%" />

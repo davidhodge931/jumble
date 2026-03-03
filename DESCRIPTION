@@ -11,10 +11,8 @@ BugReports: https://github.com/davidhodge931/jumble/issues
 Depends: 
     R (>= 4.1.0)
 Suggests: 
-    colorblindr,
     ggplot2,
-    scales,
-    tidyr
+    scales
 Encoding: UTF-8
 Language: en-GB
 Roxygen: list(markdown = TRUE)

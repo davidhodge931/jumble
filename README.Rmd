@@ -34,63 +34,14 @@ pak::pak("davidhodge931/jumble")
 
 jumble provides a 7 colour discrete colour palette. 
 
+The first 4 colours are colour-blind safe for deutanomaly, protanomaly and tritanomaly. The first 5 colours are colour-blind safe for deutanomaly. The first 3 colours are desaturated safe.
+
+The colours within the palette are provided with accessible names.
+
 ```{r example}
 library(ggplot2)
 library(jumble)
 
 scales::show_col(jumble)
-```
-
-```{r, warning = FALSE, message = FALSE}
-mpg |> 
-  tidyr::drop_na() |> 
-  ggplot2::ggplot() +
-  geom_point(aes(x = cty, y = hwy, colour = class)) +
-  scale_colour_discrete(palette = jumble)
-```
-
-
-The first 4 colours are colour-blind safe for deutanomaly, protanomaly and tritanomaly. 
-
-```{r, warning = FALSE, message = FALSE}
-p <- mpg |> 
-  tidyr::drop_na() |> 
-  ggplot2::ggplot() +
-  geom_point(aes(x = cty, y = hwy, colour = class)) +
-  scale_colour_discrete(palette = jumble[1:4])
-
-colorblindr::cvd_grid(p)
-```
-
-The first 5 colours are colour-blind safe for deutanomaly. 
-
-```{r, warning = FALSE, message = FALSE}
-p <- mpg |> 
-  tidyr::drop_na() |> 
-  ggplot2::ggplot() +
-  geom_point(aes(x = cty, y = hwy, colour = class)) +
-  scale_colour_discrete(palette = jumble[1:5])
-
-colorblindr::cvd_grid(p)
-```
-
-The first 3 colours are desaturated safe.
-
-```{r, warning = FALSE, message = FALSE}
-p <- mpg |> 
-  tidyr::drop_na() |> 
-  ggplot2::ggplot() +
-  geom_point(aes(x = cty, y = hwy, colour = class)) +
-  scale_colour_discrete(palette = jumble[1:5])
-
-colorblindr::cvd_grid(p)
-```
-
-The colours within the palette are provided with accessible names.
-
-```{r cars}
-scales::show_col(
-  c(teal, orange, navy, red, pink, slate, grey)
-)
 ```
 
