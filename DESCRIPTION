@@ -11,8 +11,10 @@ BugReports: https://github.com/davidhodge931/jumble/issues
 Depends: 
     R (>= 4.1.0)
 Suggests: 
-    scales
+    scales,
+    testthat (>= 3.0.0)
 Encoding: UTF-8
 Language: en-GB
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
+Config/testthat/edition: 3

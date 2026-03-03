@@ -1,10 +1,11 @@
 #' A discrete colour palette
 #'
 #' @description
-#' A pretty discrete colour palette that is also relatively colourblind and contrast safe.
+#' A pretty discrete colour palette that is also relatively colourblind and contrast safe on a light background.
 #'
 #' Note:
 #'
+#' * The palette is designed for a light background
 #' * The first 4 colours are colour-blind safe for deutanomaly, protanomaly and tritanomaly
 #' * The first 5 colours are colour-blind safe for deutanomaly
 #' * The first 3 colours are desaturated safe.
@@ -18,7 +19,7 @@
 jumble <- c(
   "#0095A8FF",
   "#FFA600FF",
-  "#2f4b7cFF",
+  "#003F5CFF",
   "#DA3C39FF",
   "#EC9ECBFF",
   "#8991A1FF",
