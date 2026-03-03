@@ -7,12 +7,10 @@
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/jumble)](https://CRAN.R-project.org/package=jumble)
-[![R-universe
-version](https://davidhodge931.r-universe.dev/jumble/badges/version)](https://davidhodge931.r-universe.dev/jumble)
 <!-- badges: end -->
 
-The objective of jumble is to provide a discrete colour palette, as well
-as some other useful colours.
+The objective of jumble is to provide a discrete colour palette that
+looks pretty, but is also relatively colourblind safe.
 
 ## Installation
 
@@ -26,26 +24,75 @@ pak::pak("davidhodge931/jumble")
 
 ## Example
 
-jumble provides a discrete palette that is relatively colourblind safe.
+jumble provides a 7 colour discrete colour palette.
 
 ``` r
+library(ggplot2)
 library(jumble)
+
 scales::show_col(jumble)
 ```
 
 <img src="man/figures/README-example-1.png" alt="" width="100%" />
 
 ``` r
-prismatic::check_color_blindness(rev(jumble))
+mpg |> 
+  tidyr::drop_na() |> 
+  ggplot2::ggplot() +
+  geom_point(aes(x = cty, y = hwy, colour = class)) +
+  scale_colour_discrete(palette = jumble)
 ```
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" alt="" width="100%" />
 
-It also provides some other colours with accessible names.
+The first 4 colours are colour-blind safe for deutanomaly, protanomaly
+and tritanomaly.
+
+``` r
+p <- mpg |> 
+  tidyr::drop_na() |> 
+  ggplot2::ggplot() +
+  geom_point(aes(x = cty, y = hwy, colour = class)) +
+  scale_colour_discrete(palette = jumble[1:4])
+
+colorblindr::cvd_grid(p)
+```
+
+<img src="man/figures/README-unnamed-chunk-3-1.png" alt="" width="100%" />
+
+The first 5 colours are colour-blind safe for deutanomaly.
+
+``` r
+p <- mpg |> 
+  tidyr::drop_na() |> 
+  ggplot2::ggplot() +
+  geom_point(aes(x = cty, y = hwy, colour = class)) +
+  scale_colour_discrete(palette = jumble[1:5])
+
+colorblindr::cvd_grid(p)
+```
+
+<img src="man/figures/README-unnamed-chunk-4-1.png" alt="" width="100%" />
+
+The first 3 colours are desaturated safe.
+
+``` r
+p <- mpg |> 
+  tidyr::drop_na() |> 
+  ggplot2::ggplot() +
+  geom_point(aes(x = cty, y = hwy, colour = class)) +
+  scale_colour_discrete(palette = jumble[1:5])
+
+colorblindr::cvd_grid(p)
+```
+
+<img src="man/figures/README-unnamed-chunk-5-1.png" alt="" width="100%" />
+
+The colours within the palette are provided with accessible names.
 
 ``` r
 scales::show_col(
-  c(teal, orange, navy, red, pink, grey, slate, blue, ocean)
+  c(teal, orange, navy, red, pink, slate, grey)
 )
 ```
 

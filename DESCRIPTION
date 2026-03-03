@@ -1,17 +1,18 @@
 Package: jumble
-Title: A discrete palette 
+Title: A discrete colour palette 
 Version: 0.1.0
 Authors@R: 
     person("David", "Hodge", , "davidhodge931@gmail.com", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0002-3868-7501"))
-Description: A discrete palette, plus some other useful colours.
+Description: A 7 colour discrete colour palette. The first 4 colours are colour-blind safe for deutanomaly, protanomaly and tritanomaly. The first 5 colours are colour-blind safe for deutanomaly. The first 3 colours are desaturated safe.
 License: MIT + file LICENSE
 URL: https://github.com/davidhodge931/jumble, https://davidhodge931.github.io/jumble/
 BugReports: https://github.com/davidhodge931/jumble/issues
 Depends: 
     R (>= 4.1.0)
 Suggests: 
-    prismatic,
+    colorblindr,
+    ggplot2,
     scales
 Encoding: UTF-8
 Language: en-GB

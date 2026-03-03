@@ -3,7 +3,7 @@
 \docType{data}
 \name{jumble}
 \alias{jumble}
-\title{A jumble of useful colours}
+\title{A discrete colour palette}
 \usage{
 jumble
 }
@@ -11,7 +11,13 @@ jumble
 A character vector.
 }
 \description{
-A jumble of useful colours.
+A 7 colour discrete colour palette.
+
+The first 4 colours are colour-blind safe for deutanomaly, protanomaly and tritanomaly.
+
+The first 5 colours are colour-blind safe for deutanomaly.
+
+The first 3 colours are desaturated safe.
 }
 \examples{
 scales::show_col(jumble)

@@ -1,7 +1,13 @@
-#' A jumble of useful colours
+#' A discrete colour palette
 #'
 #' @description
-#' A jumble of useful colours.
+#' A 7 colour discrete colour palette.
+#'
+#' The first 4 colours are colour-blind safe for deutanomaly, protanomaly and tritanomaly.
+#'
+#' The first 5 colours are colour-blind safe for deutanomaly.
+#'
+#' The first 3 colours are desaturated safe.
 #'
 #' @format NULL
 #' @return A character vector.
@@ -15,6 +21,7 @@ jumble <- c(
   "#2f4b7cFF",
   "#DA3C39FF",
   "#EC9ECBFF",
+  "#8991A1FF",
   "#CDC5BFFF"
 )
 
@@ -48,32 +55,15 @@ red <- "#DA3C39FF"
 #' scales::show_col(pink)
 pink <- "#EC9ECBFF"
 
-#' grey colour
-#' @export
-#' @examples
-#' scales::show_col(grey)
-grey <- "#CDC5BFFF"
-
-#' Purple colour
-#' @export
-#' @examples
-#' scales::show_col(purple)
-purple <- "#67609CFF"
-
 #' Slate colour
 #' @export
 #' @examples
 #' scales::show_col(slate)
 slate <- "#8991A1FF"
 
-#' Blue colour
+#' grey colour
 #' @export
 #' @examples
-#' scales::show_col(blue)
-blue <- "#4797C3FF"
+#' scales::show_col(grey)
+grey <- "#CDC5BFFF"
 
-#' Ocean colour
-#' @export
-#' @examples
-#' scales::show_col(ocean)
-ocean <- "#357BA2FF"
