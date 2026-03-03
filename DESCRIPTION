@@ -11,7 +11,6 @@ BugReports: https://github.com/davidhodge931/jumble/issues
 Depends: 
     R (>= 4.1.0)
 Suggests: 
-    ggplot2,
     scales
 Encoding: UTF-8
 Language: en-GB
