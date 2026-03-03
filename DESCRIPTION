@@ -13,7 +13,8 @@ Depends:
 Suggests: 
     colorblindr,
     ggplot2,
-    scales
+    scales,
+    tidyr
 Encoding: UTF-8
 Language: en-GB
 Roxygen: list(markdown = TRUE)
