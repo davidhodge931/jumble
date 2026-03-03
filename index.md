@@ -23,7 +23,6 @@ pak::pak("davidhodge931/jumble")
 ## Example
 
 ``` r
-library(ggplot2)
 library(jumble)
 
 scales::show_col(jumble)
