@@ -11,13 +11,14 @@ jumble
 A character vector.
 }
 \description{
-A 7 colour discrete colour palette.
+A pretty discrete colour palette that is also relatively colourblind and contrast safe.
 
-The first 4 colours are colour-blind safe for deutanomaly, protanomaly and tritanomaly.
-
-The first 5 colours are colour-blind safe for deutanomaly.
-
-The first 3 colours are desaturated safe.
+Note:
+\itemize{
+\item The first 4 colours are colour-blind safe for deutanomaly, protanomaly and tritanomaly
+\item The first 5 colours are colour-blind safe for deutanomaly
+\item The first 3 colours are desaturated safe.
+}
 }
 \examples{
 scales::show_col(jumble)
