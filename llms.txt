@@ -1,0 +1,69 @@
+# jumble
+
+The objective of jumble is to provide a discrete colour palette, as well
+as some other useful colours.
+
+## Installation
+
+You can install the development version of jumble from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("davidhodge931/jumble")
+```
+
+## Example
+
+jumble provides a discrete palette that is relatively colourblind safe.
+
+``` r
+library(jumble)
+scales::show_col(jumble)
+```
+
+![](reference/figures/README-example-1.png)
+
+``` r
+prismatic::check_color_blindness(rev(jumble))
+```
+
+![](reference/figures/README-unnamed-chunk-2-1.png)
+
+It also provides some other colours with accessible names.
+
+``` r
+scales::show_col(
+  c(teal, orange, navy, red, pink, grey, slate, blue, ocean)
+)
+```
+
+![](reference/figures/README-cars-1.png)
+
+# Package index
+
+## All functions
+
+- [`blue`](https://davidhodge931.github.io/jumble/reference/blue.md) :
+  Blue colour
+- [`grey`](https://davidhodge931.github.io/jumble/reference/grey.md) :
+  grey colour
+- [`jumble`](https://davidhodge931.github.io/jumble/reference/jumble.md)
+  : A jumble of useful colours
+- [`navy`](https://davidhodge931.github.io/jumble/reference/navy.md) :
+  Navy colour
+- [`ocean`](https://davidhodge931.github.io/jumble/reference/ocean.md) :
+  Ocean colour
+- [`orange`](https://davidhodge931.github.io/jumble/reference/orange.md)
+  : Orange colour
+- [`pink`](https://davidhodge931.github.io/jumble/reference/pink.md) :
+  Pink colour
+- [`purple`](https://davidhodge931.github.io/jumble/reference/purple.md)
+  : Purple colour
+- [`red`](https://davidhodge931.github.io/jumble/reference/red.md) : Red
+  colour
+- [`slate`](https://davidhodge931.github.io/jumble/reference/slate.md) :
+  Slate colour
+- [`teal`](https://davidhodge931.github.io/jumble/reference/teal.md) :
+  Teal colour
+
