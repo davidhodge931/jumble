@@ -5,6 +5,7 @@ that is also relatively colourblind and contrast safe.
 
 Note:
 
+- The palette is designed for a light background
 - The first 4 colours are colour-blind safe for deutanomaly, protanomaly
   and tritanomaly
 - The first 5 colours are colour-blind safe for deutanomaly
