@@ -11,7 +11,7 @@ An object of class \code{character} of length 1.
 pink
 }
 \description{
-Pink colour
+Can be used with jumble, but not colourblind safe.
 }
 \examples{
 scales::show_col(pink)
