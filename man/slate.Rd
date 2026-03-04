@@ -11,7 +11,7 @@ An object of class \code{character} of length 1.
 slate
 }
 \description{
-Can be used with jumble, but not colourblind safe.
+Slate colour
 }
 \examples{
 scales::show_col(slate)
