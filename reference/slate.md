@@ -1,6 +1,6 @@
 # Slate colour
 
-Can be used with jumble, but not colourblind safe.
+Slate colour
 
 ## Usage
 
