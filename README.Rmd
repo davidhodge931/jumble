@@ -32,10 +32,9 @@ A 5 colour alternative that is colour-blind safe for deutanomaly, protanomaly an
 
 ## Installation
 
-You can install the development version of jumble from [GitHub](https://github.com/) with:
-
-``` r
-# install.packages("pak")
+Install from CRAN, or development version from [GitHub](https://github.com/).
+```r
+install.packages("jumble") 
 pak::pak("davidhodge931/jumble")
 ```
 

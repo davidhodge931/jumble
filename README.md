@@ -26,11 +26,11 @@ protanomaly and tritanomaly is `jumble[c(1:4, 7)]`.
 
 ## Installation
 
-You can install the development version of jumble from
-[GitHub](https://github.com/) with:
+Install from CRAN, or development version from
+[GitHub](https://github.com/).
 
 ``` r
-# install.packages("pak")
+install.packages("jumble") 
 pak::pak("davidhodge931/jumble")
 ```
 
