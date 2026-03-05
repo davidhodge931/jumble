@@ -20,10 +20,10 @@ Note:
 \item The palette is designed for a light background
 \item The first 4 colours are colour-blind safe for deutanomaly, protanomaly and tritanomaly
 \item The first 5 colours are colour-blind safe for deutanomaly
-\item The first 3 colours are desaturated safe.
+\item The first 3 colours are greyscale safe.
 }
 
-A 5 colour alternative colourblind safe palette is \code{jumble[c(1:4, 7)]}.
+A 5 colour alternative that is colour-blind safe for deutanomaly, protanomaly and tritanomaly is \code{jumble[c(1:4, 7)]}.
 }
 \examples{
 scales::show_col(jumble)
