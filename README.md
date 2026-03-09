@@ -10,7 +10,7 @@ status](https://www.r-pkg.org/badges/version/jumble)](https://CRAN.R-project.org
 <!-- badges: end -->
 
 The objective of jumble is to provide a pretty discrete colour palette
-that is also relatively colourblind and contrast safe on a light
+that is also relatively colourblind and contrast-safe for a light
 background.
 
 Note:
