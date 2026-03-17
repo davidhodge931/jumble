@@ -8,15 +8,15 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/davidhodge931/jumble/blob/0.1.0/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/davidhodge931/jumble/blob/main/DESCRIPTION)
 
 Hodge D (2026). *jumble: A Discrete Colour Palette*. R package version
-0.1.0, <https://github.com/davidhodge931/jumble>.
+0.1.1, <https://github.com/davidhodge931/jumble>.
 
     @Manual{,
       title = {jumble: A Discrete Colour Palette},
       author = {David Hodge},
       year = {2026},
-      note = {R package version 0.1.0},
+      note = {R package version 0.1.1},
       url = {https://github.com/davidhodge931/jumble},
     }
