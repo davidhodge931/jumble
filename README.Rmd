@@ -47,6 +47,7 @@ scales::show_col(jumble)
 ```
 
 ## Other packages
+
 This package is part of the `ggblanketverse`.
 <table>
   <tr>
