@@ -1,6 +1,6 @@
 # jumble (development)
 
-* Minor changes.
+* Lightened navy colour.
 
 # jumble 0.1.0
 

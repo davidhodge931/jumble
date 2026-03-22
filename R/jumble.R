@@ -23,7 +23,7 @@
 jumble <- c(
   "#0095A8FF",
   "#FFA600FF",
-  "#003F5CFF",
+  "#19526CFF",
   "#DA3C39FF",
   "#EC9ECBFF",
   "#8991A1FF",
@@ -46,7 +46,7 @@ orange <- "#FFA600FF"
 #' @export
 #' @examples
 #' scales::show_col(navy)
-navy <- "#003F5CFF"
+navy <- "#19526CFF"
 
 #' Red colour
 #' @export
