@@ -1,11 +1,9 @@
 # A discrete colour palette
 
 A pretty discrete colour palette that is also relatively colourblind and
-contrast safe on a light background.
+contrast safe.
 
 Note:
-
-- The palette is designed for a light background
 
 - The first 4 colours are colour-blind safe for deutanomaly, protanomaly
   and tritanomaly
