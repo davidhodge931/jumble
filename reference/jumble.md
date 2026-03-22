@@ -1,8 +1,5 @@
 # A discrete colour palette
 
-A pretty discrete 5 colour palette that is relatively colourblind and
-contrast safe on a light background.
-
 A pretty discrete colour palette that is also relatively colourblind and
 contrast safe on a light background.
 
