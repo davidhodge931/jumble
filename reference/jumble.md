@@ -1,19 +1,13 @@
 # A discrete colour palette
 
-A pretty discrete colour palette that is also relatively colourblind and
-contrast safe.
+A pretty discrete colour palette that is relatively accessible.
 
-Note:
+Note only the first 3 colours are safe for all forms of colourblindness,
+as well as greyscale.
 
-- The first 4 colours are colour-blind safe for deutanomaly, protanomaly
-  and tritanomaly
-
-- The first 5 colours are colour-blind safe for deutanomaly
-
-- The first 3 colours are greyscale safe.
-
-A 5 colour alternative that is colour-blind safe for deutanomaly,
-protanomaly and tritanomaly is `jumble[c(1:4, 7)]`.
+An extra safe colour that works is
+[`jumble::grey`](https://davidhodge931.github.io/jumble/reference/grey.md)
+i.e. `jumble[c(1:4, 7)]`.
 
 ## Usage
 
