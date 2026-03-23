@@ -10,19 +10,10 @@ status](https://www.r-pkg.org/badges/version/jumble)](https://CRAN.R-project.org
 <!-- badges: end -->
 
 The objective of jumble is to provide a pretty discrete colour palette
-that is also relatively colourblind and contrast-safe for a light
-background.
+that is relatively accessible.
 
-Note:
-
-- The palette is designed for a light background
-- The first 4 colours are colour-blind safe for deutanomaly, protanomaly
-  and tritanomaly.
-- The first 5 colours are colour-blind safe for deutanomaly
-- The first 3 colours are greyscale safe.
-
-A 5 colour alternative that is colour-blind safe for deutanomaly,
-protanomaly and tritanomaly is `jumble[c(1:4, 7)]`.
+Note only the first 3 colours are safe for greyscale and all forms of
+colourblindness.
 
 ## Installation
 
