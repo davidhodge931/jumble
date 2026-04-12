@@ -4,11 +4,12 @@ Version: 0.1.0.9000
 Authors@R: 
     person("David", "Hodge", , "davidhodge931@gmail.com", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0002-3868-7501"))
-Description: A discrete color palette designed for data
-    visualization. The colors are selected to be relatively
+Description: A discrete colour palette designed for data
+    visualisation. The colours are selected to be relatively
     distinguishable and accessible.
 License: MIT + file LICENSE
-URL: https://github.com/davidhodge931/jumble, https://davidhodge931.github.io/jumble/
+URL: https://github.com/davidhodge931/jumble,
+    https://davidhodge931.github.io/jumble/
 BugReports: https://github.com/davidhodge931/jumble/issues
 Depends: 
     R (>= 4.1.0)
