@@ -19,9 +19,7 @@ pak::pak("davidhodge931/jumble")
 ## Example
 
 ``` r
-library(jumble)
-
-scales::show_col(jumble)
+scales::show_col(jumble::jumble)
 ```
 
 ![](reference/figures/README-example-1.png)

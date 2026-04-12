@@ -7,7 +7,7 @@ as well as greyscale.
 
 An extra safe colour that works is
 [`jumble::grey`](https://davidhodge931.github.io/jumble/reference/grey.md)
-i.e. `jumble[c(1:4, 7)]`.
+i.e. `jumble::jumble[c(1:4, 7)]`.
 
 ## Usage
 
@@ -22,5 +22,5 @@ A character vector.
 ## Examples
 
 ``` r
-scales::show_col(jumble)
+scales::show_col(jumble::jumble)
 ```
