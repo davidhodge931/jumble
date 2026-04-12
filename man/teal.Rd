@@ -14,6 +14,6 @@ teal
 Teal colour
 }
 \examples{
-scales::show_col(teal)
+scales::show_col(jumble::teal)
 }
 \keyword{datasets}

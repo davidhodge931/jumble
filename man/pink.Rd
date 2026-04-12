@@ -14,6 +14,6 @@ pink
 Pink colour
 }
 \examples{
-scales::show_col(pink)
+scales::show_col(jumble::pink)
 }
 \keyword{datasets}

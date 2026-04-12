@@ -14,6 +14,6 @@ slate
 Slate colour
 }
 \examples{
-scales::show_col(slate)
+scales::show_col(jumble::slate)
 }
 \keyword{datasets}

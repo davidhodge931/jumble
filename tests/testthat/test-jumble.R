@@ -6,7 +6,7 @@ test_that("jumble is a character vector of 7 hex colours", {
 
 test_that("jumble contains expected colours in order", {
   expect_equal(jumble, c(
-    "#0095A8FF", "#FFA600FF", "#003F5CFF", "#DA3C39FF",
+    "#0095A8FF", "#FFA600FF", "#19526CFF", "#DA3C39FF",
     "#EC9ECBFF", "#8991A1FF", "#CDC5BFFF"
   ))
 })
@@ -23,7 +23,7 @@ test_that("individual colour objects are single hex strings", {
 test_that("individual colours match expected hex values", {
   expect_equal(teal,   "#0095A8FF")
   expect_equal(orange, "#FFA600FF")
-  expect_equal(navy,   "#003F5CFF")
+  expect_equal(navy,   "#19526CFF")
   expect_equal(red,    "#DA3C39FF")
   expect_equal(pink,   "#EC9ECBFF")
   expect_equal(slate,  "#8991A1FF")

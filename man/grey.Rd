@@ -14,6 +14,6 @@ grey
 grey colour
 }
 \examples{
-scales::show_col(grey)
+scales::show_col(jumble::grey)
 }
 \keyword{datasets}

@@ -15,9 +15,9 @@ A pretty discrete colour palette that is relatively accessible.
 
 Note only the first 3 colours are safe for all forms of colourblindness, as well as greyscale.
 
-An extra safe colour that works is \code{jumble::grey} i.e. \code{jumble[c(1:4, 7)]}.
+An extra safe colour that works is \code{jumble::grey} i.e. \code{jumble::jumble[c(1:4, 7)]}.
 }
 \examples{
-scales::show_col(jumble)
+scales::show_col(jumble::jumble)
 }
 \keyword{datasets}

@@ -14,6 +14,6 @@ navy
 Navy colour
 }
 \examples{
-scales::show_col(navy)
+scales::show_col(jumble::navy)
 }
 \keyword{datasets}

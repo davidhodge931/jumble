@@ -34,9 +34,7 @@ pak::pak("davidhodge931/jumble")
 ## Example
 
 ```{r example}
-library(jumble)
-
-scales::show_col(jumble)
+scales::show_col(jumble::jumble)
 ```
 
 ## Other packages
