@@ -2,7 +2,9 @@ Package: jumble
 Title: A Discrete Colour Palette 
 Version: 0.1.0.9000
 Authors@R: 
-    person("David", "Hodge", , "davidhodge931@gmail.com", role = c("aut", "cre", "cph"),
+    person(given = "David", family = "Hodge", 
+           email = "davidhodge931@gmail.com", 
+           role = c("aut", "cre", "cph"), 
            comment = c(ORCID = "0000-0002-3868-7501"))
 Description: A discrete colour palette designed for data
     visualisation. The colours are selected to be relatively
