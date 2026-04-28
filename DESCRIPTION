@@ -6,9 +6,9 @@ Authors@R:
            email = "davidhodge931@gmail.com", 
            role = c("aut", "cre", "cph"), 
            comment = c(ORCID = "0000-0002-3868-7501"))
-Description: A discrete colour palette designed for data
-    visualisation. The colours are selected to be relatively
-    distinguishable and accessible.
+Description: A discrete colour palette for publication-quality visualisation. These 
+    colours make it straightforward to create relatively accessible and safe
+    visualisation.
 License: MIT + file LICENSE
 URL: https://github.com/davidhodge931/jumble,
     https://davidhodge931.github.io/jumble/
@@ -17,6 +17,7 @@ Depends:
     R (>= 4.1.0)
 Suggests: 
     scales,
+    spelling,
     testthat (>= 3.0.0)
 Encoding: UTF-8
 Language: en-GB
