@@ -1,14 +1,13 @@
 Package: jumble
-Title: A Discrete Colour Palette 
+Title: A Discrete Colour Palette
 Version: 0.1.0.9000
 Authors@R: 
     person(given = "David", family = "Hodge", 
            email = "davidhodge931@gmail.com", 
            role = c("aut", "cre", "cph"), 
            comment = c(ORCID = "0000-0002-3868-7501"))
-Description: A discrete colour palette for publication-quality visualisation. These 
-    colours make it straightforward to create relatively accessible and safe
-    visualisation.
+Description: A discrete colour palette. These colours make it easier to create 
+    relatively accessible and colour-blind safe visualisation.
 License: MIT + file LICENSE
 URL: https://github.com/davidhodge931/jumble,
     https://davidhodge931.github.io/jumble/
