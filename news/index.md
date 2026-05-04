@@ -2,6 +2,8 @@
 
 ## jumble 0.1.1
 
+CRAN release: 2026-05-04
+
 - Lightened navy colour.
 
 ## jumble 0.1.0

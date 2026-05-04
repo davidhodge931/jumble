@@ -8,7 +8,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/davidhodge931/jumble/blob/main/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/davidhodge931/jumble/blob/0.1.1/DESCRIPTION)
 
 Hodge D (2026). *jumble: A Discrete Colour Palette*. R package version
 0.1.1, <https://github.com/davidhodge931/jumble>.
