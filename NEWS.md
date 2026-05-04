@@ -1,4 +1,4 @@
-# 0.1.1
+# jumble 0.1.1
 
 * Lightened navy colour.
 

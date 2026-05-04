@@ -1,6 +1,6 @@
 Package: jumble
 Title: A Discrete Colour Palette
-Version: 0.1.0.9000
+Version: 0.1.1
 Authors@R: 
     person(given = "David", family = "Hodge", 
            email = "davidhodge931@gmail.com", 
