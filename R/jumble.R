@@ -22,3 +22,47 @@ jumble <- c(
   "#8991A1FF",
   "#CDC5BFFF"
 )
+
+#' Teal colour
+#' @export
+#' @examples
+#' scales::show_col(jumble::teal)
+teal <- "#0095A8FF"
+
+#' Orange colour
+#' @export
+#' @examples
+#' scales::show_col(jumble::orange)
+orange <- "#FFA600FF"
+
+#' Navy colour
+#' @export
+#' @examples
+#' scales::show_col(jumble::navy)
+navy <- "#19526CFF"
+
+#' Red colour
+#' @export
+#' @examples
+#' scales::show_col(jumble::red)
+red <- "#DA3C39FF"
+
+#' Pink colour
+#'
+#' @export
+#' @examples
+#' scales::show_col(jumble::pink)
+pink <- "#EC9ECBFF"
+
+#' Slate colour
+#'
+#' @export
+#' @examples
+#' scales::show_col(jumble::slate)
+slate <- "#8991A1FF"
+
+#' grey colour
+#' @export
+#' @examples
+#' scales::show_col(jumble::grey)
+grey <- "#CDC5BFFF"
