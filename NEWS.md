@@ -1,6 +1,6 @@
 # jumble (development)
 
-* 
+* Internal changes.
 
 # jumble 0.1.1
 
