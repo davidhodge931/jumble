@@ -1,6 +1,6 @@
-# jumble (development)
+# jumble 0.1.2
 
-* Internal changes.
+* Refactored code.
 
 # jumble 0.1.1
 
