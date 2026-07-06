@@ -1,5 +1,9 @@
 # Changelog
 
+## jumble 0.1.2
+
+- Refactored code.
+
 ## jumble 0.1.1
 
 CRAN release: 2026-05-04
