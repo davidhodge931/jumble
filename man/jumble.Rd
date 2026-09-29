@@ -10,11 +10,9 @@ jumble
 A character vector.
 }
 \description{
-A pretty discrete colour palette that is relatively accessible.
-
-Note only the first 3 colours are safe for all forms of colourblindness, as well as greyscale.
-
-An extra safe colour that works is \code{jumble::grey} i.e. \code{jumble::jumble[c(1:4, 7)]}.
+A pretty discrete palette with 7 colours that are accessible to normal eyes.
+The first 5 colours of these are colour-blind safe. Only the first 3 colours
+of these are greyscale safe.
 }
 \examples{
 scales::show_col(jumble::jumble)

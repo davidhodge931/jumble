@@ -19,9 +19,7 @@ knitr::opts_chunk$set(
 [![CRAN status](https://www.r-pkg.org/badges/version/jumble)](https://CRAN.R-project.org/package=jumble)
 <!-- badges: end -->
 
-The objective of jumble is to provide a pretty discrete colour palette that is relatively accessible.
-
-Note only the first 3 colours are safe for greyscale and all forms of colourblindness.
+The objective of jumble is to provide a pretty discrete colour palette that is  accessible and colourblind safe. The 7 colours are accessible to normal eyes. The first 5 colours of these are colour-blind safe. The first 3 colours of these are greyscale safe.
 
 ## Installation
 
@@ -34,7 +32,30 @@ pak::pak("davidhodge931/jumble")
 ## Example
 
 ```{r example}
-scales::show_col(jumble::jumble)
+library(jumble)
+library(scales)
+library(dichromat)
+library(colorspace)
+```
+
+The 7 colours are accessible to normal vision.
+
+```{r}
+show_col(jumble)
+```
+
+The first 5 colours are colour-blind safe for all forms of colour blindness.
+
+```{r}
+show_col(dichromat(colours = jumble, type = "deutan"))
+show_col(dichromat(colours = jumble, type = "protan"))
+show_col(dichromat(colours = jumble, type = "tritan"))
+```
+
+Only the first 3 colours are greyscale safe.
+
+```{r}
+show_col(desaturate(jumble))
 ```
 
 ## Other packages

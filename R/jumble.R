@@ -1,11 +1,9 @@
 #' A discrete colour palette
 #'
 #' @description
-#' A pretty discrete colour palette that is relatively accessible.
-#'
-#' Note only the first 3 colours are safe for all forms of colourblindness, as well as greyscale.
-#'
-#' An extra safe colour that works is `jumble::grey` i.e. `jumble::jumble[c(1:4, 7)]`.
+#' A pretty discrete palette with 7 colours that are accessible to normal eyes.
+#' The first 5 colours of these are colour-blind safe. Only the first 3 colours
+#' of these are greyscale safe.
 #'
 #' @format NULL
 #' @return A character vector.
@@ -17,10 +15,10 @@ jumble <- c(
   "#0095A8FF",
   "#FFA600FF",
   "#19526CFF",
-  "#DA3C39FF",
-  "#EC9ECBFF",
-  "#8991A1FF",
-  "#CDC5BFFF"
+  "#C9C0B9FF",
+  "#8C8700FF",
+  "#DA62A2FF",
+  "#8991A1FF"
 )
 
 #' Teal colour
@@ -41,18 +39,24 @@ orange <- "#FFA600FF"
 #' scales::show_col(jumble::navy)
 navy <- "#19526CFF"
 
-#' Red colour
+#' grey colour
 #' @export
 #' @examples
-#' scales::show_col(jumble::red)
-red <- "#DA3C39FF"
+#' scales::show_col(jumble::grey)
+grey <- "#C9C0B9FF"
+
+#' Olive colour
+#' @export
+#' @examples
+#' scales::show_col(jumble::olive)
+olive <- "#8C8700FF"
 
 #' Pink colour
 #'
 #' @export
 #' @examples
 #' scales::show_col(jumble::pink)
-pink <- "#EC9ECBFF"
+pink <- "#DA62A2FF"
 
 #' Slate colour
 #'
@@ -60,9 +64,3 @@ pink <- "#EC9ECBFF"
 #' @examples
 #' scales::show_col(jumble::slate)
 slate <- "#8991A1FF"
-
-#' grey colour
-#' @export
-#' @examples
-#' scales::show_col(jumble::grey)
-grey <- "#CDC5BFFF"
