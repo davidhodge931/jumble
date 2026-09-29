@@ -1,10 +1,9 @@
 # jumble
 
 The objective of jumble is to provide a pretty discrete colour palette
-that is relatively accessible.
-
-Note only the first 3 colours are safe for greyscale and all forms of
-colourblindness.
+that is accessible and colourblind safe. The 7 colours are accessible to
+normal eyes. The first 5 colours of these are colour-blind safe. The
+first 3 colours of these are greyscale safe.
 
 ## Installation
 
@@ -21,10 +20,55 @@ pak::pak("davidhodge931/jumble")
 
 ``` r
 
-scales::show_col(jumble::jumble)
+library(jumble)
+library(scales)
+library(dichromat)
+#> Warning: package 'dichromat' was built under R version 4.6.1
+library(colorspace)
+#> Warning: package 'colorspace' was built under R version 4.6.1
 ```
 
-![](reference/figures/README-example-1.png)
+The 7 colours are accessible to normal vision.
+
+``` r
+
+show_col(jumble)
+```
+
+![](reference/figures/README-unnamed-chunk-2-1.png)
+
+The first 5 colours are colour-blind safe for all forms of colour
+blindness.
+
+``` r
+
+show_col(dichromat(colours = jumble, type = "deutan"))
+```
+
+![](reference/figures/README-unnamed-chunk-3-1.png)
+
+``` r
+
+show_col(dichromat(colours = jumble, type = "protan"))
+```
+
+![](reference/figures/README-unnamed-chunk-3-2.png)
+
+``` r
+
+show_col(dichromat(colours = jumble, type = "tritan"))
+```
+
+![](reference/figures/README-unnamed-chunk-3-3.png)
+
+Only the first 3 colours are greyscale safe.
+
+``` r
+
+show_col(desaturate(jumble))
+```
+
+![](reference/figures/README-unnamed-chunk-4-1.png)
 
 ## Other packages
 

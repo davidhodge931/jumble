@@ -1,6 +1,15 @@
 # Changelog
 
+## jumble 0.2.0
+
+- Dropped red.
+- Added olive.
+- Darkened grey.
+- Darkened pink.
+
 ## jumble 0.1.2
+
+CRAN release: 2026-07-06
 
 - Refactored code.
 
