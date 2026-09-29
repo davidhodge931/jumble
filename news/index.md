@@ -2,6 +2,8 @@
 
 ## jumble 0.2.0
 
+CRAN release: 2026-09-29
+
 - Dropped red.
 - Added olive.
 - Darkened grey.
